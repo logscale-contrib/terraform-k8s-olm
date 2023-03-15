@@ -12,7 +12,7 @@ terraform {
       version = "~> 2.11"
     }
     local = {
-      version = "~> 2"
+      version = ">= 2"
     }
   }
 }
